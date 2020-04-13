@@ -1,0 +1,56 @@
+body { font-family: 'PT Sans', sans-serif;
+      width: 700px;
+      margin: 0 auto;
+/* background-image: url(../Images/animated-backgrounds.jpg);
+background-size: 800px 20624px;
+background-position: top center;
+background-repeat: no-repeat; */
+
+      }
+h1, h2 {
+        font-family: 'PT Sans', sans-serif;
+        font-weight: bold;
+       }
+
+h1
+  {
+    margin-top: 70px;
+    font-size: 40px;
+    margin-bottom: 3px;
+  }
+
+  h1 + p {
+          color: rgb(153,153,153);
+          line-height: 30px;
+          }
+
+       p {
+           font-size: 20px;
+           line-height: 34px;
+         }
+        p + p {
+               margin-top: 28px;
+               }
+
+        h1 + p + p {
+                    margin-top: 33px;
+                    }
+a {
+   color:inherit;
+   text-decoration: underline;
+  }
+
+a:hover {
+   text-decoration: none;
+        }
+a:visited {
+            color: black;
+          }
+        p + ul {
+               margin-top: 28px;
+              }
+  h2
+     {
+       font-size: 25px;
+       margin-bottom: 10px;
+     }
